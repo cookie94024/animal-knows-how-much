@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>舞動全台 | 直布羅陀獼猴</title>
+    <link href="images/favicon.ico" rel="icon">
+    <link rel="stylesheet" href="../vendor/css/bundle.min.css">
+    <link rel="stylesheet" href="../vendor/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="../vendor/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="../vendor/css/cubeportfolio.min.css">
+    <link rel="stylesheet" href="../vendor/css/tooltipster.min.css">
+    <link rel="stylesheet" href="../vendor/css/revolution-settings.min.css">
+    <link rel="stylesheet" href="../css/revolution/navigation.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <!--PreLoader-->
+    <div class="loader">
+        <div class="loader-spinner"></div>
+    </div>
+    <!--PreLoader Ends-->
+    <!-- header -->
+    <header class="site-header">
+        <nav class="navbar navbar-expand-lg static-nav bg-yellow">
+            <div class="container">
+                <a class="navbar-brand" href="../index.html">
+                    <span>舞動全台</span>
+                </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link" href="../index.html"> 首頁 </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="construction/about.html">簡介</a>
+                        </li>
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"> 一探究竟 </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="construction/news-1.html">歐洲</a>
+                                <a class="dropdown-item" href="construction/news-2.html">亞洲</a>
+                                <a class="dropdown-item" href="construction/news-detail.html">美洲</a>
+                                <a class="dropdown-item" href="construction/news-detail.html">大洋洲</a>
+                                <a class="dropdown-item" href="construction/news-detail.html">非洲</a>
+                            </div>
+                        </li>
+                        <li class="nav-item dropdown position-relative">
+                            <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false"> 愛台灣 </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="construction/news-1.html">台灣動物巡禮</a>
+                                <a class="dropdown-item" href="construction/news-2.html">台灣特有種</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="construction/work.html">動物知多少</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--side menu open button-->
+            <a href="javascript:void(0)" class="d-inline-block sidemenu_btn" id="sidemenu_toggle">
+                <span class="bg-dark"></span> <span class="bg-dark"></span> <span class="bg-dark"></span>
+            </a>
+        </nav>
+        <!-- side menu -->
+        <div class="side-menu opacity-0 ">
+            <div class="overlay"></div>
+            <div class="inner-wrapper">
+                <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+                <nav class="side-nav w-100">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">
+                                首頁
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="construction/about.html">簡介</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages2">
+                                一探究竟 <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div id="sideNavPages2" class="collapse sideNavPages">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-1.html">歐洲</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-2.html">亞洲</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-detail.html">美洲</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-detail.html">大洋洲</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-detail.html">非洲</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link collapsePagesSideMenu" data-toggle="collapse" href="#sideNavPages2">
+                                愛台灣 <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <div id="sideNavPages2" class="collapse sideNavPages">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-1.html">台灣動物園巡禮</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="construction/news-2.html">台灣特有種</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="construction/work.html">動物知多少</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div id="close_side_menu" class="tooltip"></div>
+        <!-- End side menu -->
+    </header>
+    <!-- header -->
+    <!--Page Header-->
+    <section id="main-banner-page" class="position-relative page-header section-nav-smooth parallax blog-detail-header"
+        style="background-image: none; background: #f7f7f7;">
+        <div class="container">
+            <div class="bg-blue title-wrap">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 whitecolor">
+                        <h3 class="float-left">直布羅陀獼猴</h3>
+                        <ul class="breadcrumb top10 bottom10 float-right">
+                            <li class="breadcrumb-item">首頁</li>
+                            <li class="breadcrumb-item">歐洲</li>
+                            <li class="breadcrumb-item">直布羅陀獼猴</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--Page Header ends -->
+    <!-- Our Blogs -->
+    <section id="our-blog" class="bglight padding_top padding_bottom_half">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div class="news_item shadow-equal">
+                        <div class="image">
+                            <img src="../img/africa/Loxodonta.jpg" alt="Latest News" class="img-responsive">
+                        </div>
+                        <div class="news_desc text-center text-md-left">
+                            <h2 class="text-capitalize font-normal darkcolor">直布羅陀獼猴</h2>
+                            <h3 class="top10 bottom30">Macaca sylvanus</h3>
+                            <h3 class="top10 bottom30">分佈</h3>
+                            <p>居住在北非的阿特拉斯山脈、直布羅陀深山的以雪松、杉木、橡木為主的森林裡。</p>
+                            <h3 class="top10 bottom30">習性</h3>
+                            <ul class="rounded heading_space text-left">
+                                <li>尾短</li>
+                                <li>具頰囊</li>
+                                <li>有厚厚的皮毛</li>
+                                <li>群居性，每一群有12-60個成員</li>
+                                <li>披着厚實、温暖的外衣，是專為應對嚴寒天氣的。</li>
+                            </ul>
+                            <h3 class="top10 bottom30">歐洲之最</h3>
+                            <blockquote class="blockquote darkcolor heading_space">歐洲大陸唯一的野生猴子種群
+                                </blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="../vendor/js/bundle.min.js"></script>
+    <!--to view items on reach-->
+    <script src="../vendor/js/jquery.appear.js"></script>
+    <!--Owl Slider-->
+    <script src="../vendor/js/owl.carousel.min.js"></script>
+    <!--Parallax Background-->
+    <script src="../vendor/js/parallaxie.min.js"></script>
+    <!--Cubefolio Gallery-->
+    <script src="../vendor/js/jquery.cubeportfolio.min.js"></script>
+    <!--Fancybox js-->
+    <script src="../vendor/js/jquery.fancybox.min.js"></script>
+    <!--wow js-->
+    <script src="../vendor/js/wow.min.js"></script>
+    <!--number counters-->
+    <script src="../vendor/js/jquery-countTo.js"></script>
+    <!--tooltip js-->
+    <script src="../vendor/js/tooltipster.min.js"></script>
+    <!--Revolution SLider-->
+    <script src="../vendor/js/jquery.themepunch.tools.min.js"></script>
+    <script src="../vendor/js/jquery.themepunch.revolution.min.js"></script>
+    <!-- SLIDER REVOLUTION 5.0 EXTENSIONS -->
+    <script src="../vendor/js/extensions/revolution.extension.actions.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.carousel.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.kenburn.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.layeranimation.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.migration.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.navigation.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.parallax.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.slideanims.min.js"></script>
+    <script src="../vendor/js/extensions/revolution.extension.video.min.js"></script>
+    <!--custom functions and script-->
+    <script src="../js/functions.js"></script>
+</body>
+
+</html>
